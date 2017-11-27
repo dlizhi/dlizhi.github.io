@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+#con-list-ticket{
+	color: #666;
+	width: 930px;
+	padding-right: 10px;
+	letter-spacing: 1px;
+}
+
+#con-list-ticket h2{
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #666;
+	/*width: 90%;*/
+}
+
+#con-list-ticket-type span{
+	font-size: 20px;
+}
+
+#con-list-ticket-type{
+	margin: 20px 0px;
+}
+
+#con-list-ticket-type ul{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#con-list-ticket-type li{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#con-list-ticket-type li:first-child{
+	color: #fff;
+	background: green;
+}
+
+#con-list-ticke-buy{
+}
+
+#con-list-ticke-buy div{
+	display: inline-block;
+}
+
+#con-list-ticke-buy span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#con-list-ticket-type li:hover{
+	color: #fff;
+	background: green;
+}
+
+#con-list-ticke-buy input{
+	font-size: 18px;
+	width: 280px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #999;
+	outline: none;
+	margin-right: 10px;
+}
+
+#con-list-ticke-buy .submit{
+	border: none;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	font-size: 18px;
+	padding: 10px;
+	position: relative;
+	top: -40px;
+	left: 20px;
+	background: #f60;
+	color: #fff;
+	border-radius: 10px;
+	outline: none;
+}
+
+#con-list-ticke-buy .submit:hover{
+	background: red;
+	cursor: pointer;
+}
+
+#ticket-new-table{
+	text-align: center;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	border-radius: 100px;
+	margin-top: 40px;
+	font-size: 18px;
+}
+
+#ticket-new-table tr:nth-child(2n){
+	background: #fafafa;
+}
+
+#ticket-new-table tr{
+	height: 60px;
+	padding: 5px 0px;
+	line-height: 60px;
+}
+
+#ticket-new-table tbody tr:hover{
+	background: #eee;
+}
+
+#ticket-new-table td, tr, th{
+	border: none;
+}
+
+#ticket-new-table tr{
+	border-top: 1px solid #eee;
+}
+
+#ticket-new-table tfoot tr{
+	column-span: 3;
+}
+
+#ticket-new-table .price{
+	color: #f60;
+}
+
+#ticket-new-table .reserve{
+	text-decoration: none;
+	background: #f60;
+	color: #fff;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+#ticket-new-table .reserve:hover{
+	background: red;
+}
+
+#ticket-new-table tfoot th{
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: normal;
+}
+
+#ticket-new-table tfoot th:hover{
+	cursor: pointer;
+	background: #eee;
+}
+
+#ticket-new p{
+	margin-top: 18px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#ticket-new mark{
+	background: green;
+	padding: 1px 5px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 4px;
+}
+
+#ticket-new span{
+	padding: 1px 5px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#ticket-new span:hover{
+	background: green;
+	color: #fff;
+	border-radius: 4px;
+}
