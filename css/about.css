@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#con-about{
+	width: 930px;
+	padding-right: 20px;
+}
+
+#con-about h2{
+	text-align: left;
+	display: block;
+	/*margin-bottom: 10px;*/
+	color: #666;
+	padding: 10px;
+	box-sizing: border-box;
+	/*background-color: #fafafa;*/
+	font-weight: normal;
+	font-size: 40px;
+}
+
+#con-about p{
+	font-size: 20px;
+	line-height: 30px;
+	text-indent: 2em;
+	padding: 5px;
+}
+
+#con-about section:last-child{
+	margin-top: 80px;
+}
+
+#con-about address li{
+	font-style: normal;
+	list-style: none;
+	font-size: 20px;
+	line-height: 30px;
+	text-indent: 2em;
+	padding: 5px;
+}

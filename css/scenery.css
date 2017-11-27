@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#con-scenery figure{
+	width: 380px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	text-align: left;
+	position: relative;
+	margin: 20px 70px 0 0;
+}
+
+#con-scenery figure:hover{
+	opacity: 0.85;
+	transition: 1s;
+	/*border: 1px solid red;*/
+}
+
+#con-scenery figure figcaption{
+	font-size: 16px;
+	line-height: 24px;
+	color: #666;
+	text-align: center;
+}
+
+#con-scenery{
+	/*background: red;*/
+	width: 930px;
+	padding-top: 26px;
+}
+
+#con-scenery h2{
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #666;
+	/*background: red;*/
+}
+
